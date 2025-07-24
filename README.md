@@ -1,1 +1,2 @@
-test readme
+- [x] manim run locally
+- [] manim run from framework
