@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:02,310
+Let's understand how five times five
+
+2
+00:00:02,410 --> 00:00:04,988
+can be represented as repeated addition.
+
+3
+00:00:06,083 --> 00:00:10,447
+Five times five means we add the number five, five times.
+
+4
+00:00:21,533 --> 00:00:25,633
+And when we add them all together, the result is twenty five.
+

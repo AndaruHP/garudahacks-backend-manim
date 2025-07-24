@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:02,728
+Mari kita lihat bagaimana lima dikali
+
+2
+00:00:02,828 --> 00:00:06,932
+lima dapat diilustrasikan sebagai penjumlahan berulang.
+
+3
+00:00:08,016 --> 00:00:13,436
+Lima dikali lima artinya lima dijumlahkan sebanyak lima kali.
+
+4
+00:00:24,533 --> 00:00:30,073
+Jika kita jumlahkan semuanya, hasilnya adalah dua puluh lima.
+

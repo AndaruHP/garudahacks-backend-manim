@@ -34,5 +34,845 @@
     },
     "original_audio": "thank-you-for-watching-14bd13b7.mp3",
     "final_audio": "thank-you-for-watching-14bd13b7.mp3"
+  },
+  {
+    "input_text": "Selamat datang di animasi Manim.",
+    "input_data": {
+      "input_text": "Selamat datang di animasi Manim.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Selamat datang di animasi Manim.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Selamat datang di animasi Manim.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Selamat",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 487,
+        "text_offset": 8,
+        "word_length": 6,
+        "text": "datang",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11125000,
+        "duration_milliseconds": 162,
+        "text_offset": 15,
+        "word_length": 2,
+        "text": "di",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12750000,
+        "duration_milliseconds": 687,
+        "text_offset": 18,
+        "word_length": 7,
+        "text": "animasi",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19625000,
+        "duration_milliseconds": 650,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "Manim",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26125000,
+        "duration_milliseconds": 87,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "selamat-datang-di-animasi-manim-0f7cdf52.mp3",
+    "final_audio": "selamat-datang-di-animasi-manim-0f7cdf52.mp3"
+  },
+  {
+    "input_text": "Selamat datang di animasi Manim.",
+    "input_data": {
+      "input_text": "Selamat datang di animasi Manim.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Selamat datang di animasi Manim.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Selamat datang di animasi Manim.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Selamat",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 487,
+        "text_offset": 8,
+        "word_length": 6,
+        "text": "datang",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11125000,
+        "duration_milliseconds": 162,
+        "text_offset": 15,
+        "word_length": 2,
+        "text": "di",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12750000,
+        "duration_milliseconds": 687,
+        "text_offset": 18,
+        "word_length": 7,
+        "text": "animasi",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19625000,
+        "duration_milliseconds": 650,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "Manim",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26125000,
+        "duration_milliseconds": 87,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "selamat-datang-di-animasi-manim-0f7cdf52.mp3",
+    "final_audio": "selamat-datang-di-animasi-manim-0f7cdf52.mp3"
+  },
+  {
+    "input_text": "Mari kita lihat bagaimana lima dikali lima dapat diilustrasikan sebagai penjumlahan berulang.",
+    "input_data": {
+      "input_text": "Mari kita lihat bagaimana lima dikali lima dapat diilustrasikan sebagai penjumlahan berulang.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita lihat bagaimana lima dikali lima dapat diilustrasikan sebagai penjumlahan berulang.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita lihat bagaimana lima dikali lima dapat diilustrasikan sebagai penjumlahan berulang.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 362,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Mari",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4125000,
+        "duration_milliseconds": 287,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7000000,
+        "duration_milliseconds": 387,
+        "text_offset": 10,
+        "word_length": 5,
+        "text": "lihat",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10875000,
+        "duration_milliseconds": 550,
+        "text_offset": 16,
+        "word_length": 9,
+        "text": "bagaimana",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 437,
+        "text_offset": 26,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20750000,
+        "duration_milliseconds": 400,
+        "text_offset": 31,
+        "word_length": 6,
+        "text": "dikali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24750000,
+        "duration_milliseconds": 450,
+        "text_offset": 38,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29250000,
+        "duration_milliseconds": 387,
+        "text_offset": 43,
+        "word_length": 5,
+        "text": "dapat",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33125000,
+        "duration_milliseconds": 0,
+        "text_offset": 49,
+        "word_length": 14,
+        "text": "diilustrasikan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43125000,
+        "duration_milliseconds": 475,
+        "text_offset": 64,
+        "word_length": 7,
+        "text": "sebagai",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47875000,
+        "duration_milliseconds": 737,
+        "text_offset": 72,
+        "word_length": 11,
+        "text": "penjumlahan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55250000,
+        "duration_milliseconds": 675,
+        "text_offset": 84,
+        "word_length": 8,
+        "text": "berulang",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62000000,
+        "duration_milliseconds": 87,
+        "text_offset": 92,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "mari-kita-lihat-bagaimana-lima-dikali-lima-dapat-2076b44f.mp3",
+    "final_audio": "mari-kita-lihat-bagaimana-lima-dikali-lima-dapat-2076b44f.mp3"
+  },
+  {
+    "input_text": "Lima dikali lima artinya lima dijumlahkan sebanyak lima kali.",
+    "input_data": {
+      "input_text": "Lima dikali lima artinya lima dijumlahkan sebanyak lima kali.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Lima dikali lima artinya lima dijumlahkan sebanyak lima kali.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Lima dikali lima artinya lima dijumlahkan sebanyak lima kali.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 425,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 412,
+        "text_offset": 5,
+        "word_length": 6,
+        "text": "dikali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8875000,
+        "duration_milliseconds": 412,
+        "text_offset": 12,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13000000,
+        "duration_milliseconds": 625,
+        "text_offset": 17,
+        "word_length": 7,
+        "text": "artinya",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19250000,
+        "duration_milliseconds": 475,
+        "text_offset": 25,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24000000,
+        "duration_milliseconds": 762,
+        "text_offset": 30,
+        "word_length": 11,
+        "text": "dijumlahkan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31625000,
+        "duration_milliseconds": 587,
+        "text_offset": 42,
+        "word_length": 8,
+        "text": "sebanyak",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 375,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 562,
+        "text_offset": 56,
+        "word_length": 4,
+        "text": "kali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46875000,
+        "duration_milliseconds": 87,
+        "text_offset": 60,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "lima-dikali-lima-artinya-lima-dijumlahkan-sebanyak-0bf641a0.mp3",
+    "final_audio": "lima-dikali-lima-artinya-lima-dijumlahkan-sebanyak-0bf641a0.mp3"
+  },
+  {
+    "input_text": "Jika kita jumlahkan semuanya, hasilnya adalah dua puluh lima.",
+    "input_data": {
+      "input_text": "Jika kita jumlahkan semuanya, hasilnya adalah dua puluh lima.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Jika kita jumlahkan semuanya, hasilnya adalah dua puluh lima.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Jika kita jumlahkan semuanya, hasilnya adalah dua puluh lima.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Jika",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5000000,
+        "duration_milliseconds": 312,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 550,
+        "text_offset": 10,
+        "word_length": 9,
+        "text": "jumlahkan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13625000,
+        "duration_milliseconds": 800,
+        "text_offset": 20,
+        "word_length": 8,
+        "text": "semuanya",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 225,
+        "text_offset": 28,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24750000,
+        "duration_milliseconds": 662,
+        "text_offset": 30,
+        "word_length": 8,
+        "text": "hasilnya",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31375000,
+        "duration_milliseconds": 575,
+        "text_offset": 39,
+        "word_length": 6,
+        "text": "adalah",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 275,
+        "text_offset": 46,
+        "word_length": 3,
+        "text": "dua",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39875000,
+        "duration_milliseconds": 287,
+        "text_offset": 50,
+        "word_length": 5,
+        "text": "puluh",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42750000,
+        "duration_milliseconds": 537,
+        "text_offset": 56,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48125000,
+        "duration_milliseconds": 87,
+        "text_offset": 60,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "jika-kita-jumlahkan-semuanya-hasilnya-adalah-dua-ab3e0162.mp3",
+    "final_audio": "jika-kita-jumlahkan-semuanya-hasilnya-adalah-dua-ab3e0162.mp3"
+  },
+  {
+    "input_text": "Let's understand how five times five can be represented as repeated addition.",
+    "input_data": {
+      "input_text": "Let's understand how five times five can be represented as repeated addition.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Let's understand how five times five can be represented as repeated addition.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Let's understand how five times five can be represented as repeated addition.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 300,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3625000,
+        "duration_milliseconds": 625,
+        "text_offset": 6,
+        "word_length": 10,
+        "text": "understand",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10000000,
+        "duration_milliseconds": 275,
+        "text_offset": 17,
+        "word_length": 3,
+        "text": "how",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12875000,
+        "duration_milliseconds": 400,
+        "text_offset": 21,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17000000,
+        "duration_milliseconds": 412,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "times",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21125000,
+        "duration_milliseconds": 375,
+        "text_offset": 32,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25000000,
+        "duration_milliseconds": 125,
+        "text_offset": 37,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26250000,
+        "duration_milliseconds": 100,
+        "text_offset": 41,
+        "word_length": 2,
+        "text": "be",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27375000,
+        "duration_milliseconds": 700,
+        "text_offset": 44,
+        "word_length": 11,
+        "text": "represented",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 212,
+        "text_offset": 56,
+        "word_length": 2,
+        "text": "as",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38250000,
+        "duration_milliseconds": 400,
+        "text_offset": 59,
+        "word_length": 8,
+        "text": "repeated",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42375000,
+        "duration_milliseconds": 512,
+        "text_offset": 68,
+        "word_length": 8,
+        "text": "addition",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 100,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-understand-how-five-times-five-can-be-61c37714.mp3",
+    "final_audio": "let-s-understand-how-five-times-five-can-be-61c37714.mp3"
+  },
+  {
+    "input_text": "Five times five means we add the number five, five times.",
+    "input_data": {
+      "input_text": "Five times five means we add the number five, five times.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Five times five means we add the number five, five times.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Five times five means we add the number five, five times.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 425,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4875000,
+        "duration_milliseconds": 375,
+        "text_offset": 5,
+        "word_length": 5,
+        "text": "times",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 450,
+        "text_offset": 11,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14875000,
+        "duration_milliseconds": 287,
+        "text_offset": 16,
+        "word_length": 5,
+        "text": "means",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17875000,
+        "duration_milliseconds": 200,
+        "text_offset": 22,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20000000,
+        "duration_milliseconds": 250,
+        "text_offset": 25,
+        "word_length": 3,
+        "text": "add",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 50,
+        "text_offset": 29,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23250000,
+        "duration_milliseconds": 250,
+        "text_offset": 33,
+        "word_length": 6,
+        "text": "number",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25875000,
+        "duration_milliseconds": 425,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31125000,
+        "duration_milliseconds": 137,
+        "text_offset": 44,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 32500000,
+        "duration_milliseconds": 250,
+        "text_offset": 46,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35125000,
+        "duration_milliseconds": 612,
+        "text_offset": 51,
+        "word_length": 5,
+        "text": "times",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41375000,
+        "duration_milliseconds": 87,
+        "text_offset": 56,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "five-times-five-means-we-add-the-number-five-five-798aa6eb.mp3",
+    "final_audio": "five-times-five-means-we-add-the-number-five-five-798aa6eb.mp3"
+  },
+  {
+    "input_text": "And when we add them all together, the result is twenty five.",
+    "input_data": {
+      "input_text": "And when we add them all together, the result is twenty five.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">And when we add them all together, the result is twenty five.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">And when we add them all together, the result is twenty five.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 875000,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "And",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2625000,
+        "duration_milliseconds": 150,
+        "text_offset": 4,
+        "word_length": 4,
+        "text": "when",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4125000,
+        "duration_milliseconds": 162,
+        "text_offset": 9,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5875000,
+        "duration_milliseconds": 200,
+        "text_offset": 12,
+        "word_length": 3,
+        "text": "add",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 150,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "them",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10500000,
+        "duration_milliseconds": 200,
+        "text_offset": 21,
+        "word_length": 3,
+        "text": "all",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 462,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "together",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18125000,
+        "duration_milliseconds": 375,
+        "text_offset": 33,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 21875000,
+        "duration_milliseconds": 75,
+        "text_offset": 35,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22750000,
+        "duration_milliseconds": 450,
+        "text_offset": 39,
+        "word_length": 6,
+        "text": "result",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28125000,
+        "duration_milliseconds": 262,
+        "text_offset": 46,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 300,
+        "text_offset": 49,
+        "word_length": 6,
+        "text": "twenty",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34000000,
+        "duration_milliseconds": 462,
+        "text_offset": 56,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38750000,
+        "duration_milliseconds": 100,
+        "text_offset": 60,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "and-when-we-add-them-all-together-the-result-is-d512ce64.mp3",
+    "final_audio": "and-when-we-add-them-all-together-the-result-is-d512ce64.mp3"
   }
 ]
