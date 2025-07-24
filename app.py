@@ -176,6 +176,5 @@ async def generate(request: Request):
 
     return {
         "message": "Video berhasil dibuat!",
-        "video_url": video_url,
-        "video_html": video_html
+        "video_url": video_url
     }
