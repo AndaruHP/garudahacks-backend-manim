@@ -13,6 +13,7 @@ import codecs
 import datetime
 from fastapi.middleware.cors import CORSMiddleware
 import logging
+import openai
 
 # Ambil allowed origins dari environment variable
 allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
@@ -41,6 +42,25 @@ def get_user_request_count(user_id):
     count = user_request_count.get(user_id, 0) + 1
     user_request_count[user_id] = count
     return count
+
+# openai
+async def call_gpt_api(prompt, context):
+    api_key = os.getenv("OPENAI_API_KEY")
+    openai.api_key = api_key
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": context},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7,
+            max_tokens=2048,
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        logging.error(f"Error saat call GPT: {e}")
+        raise
 
 # Helper: kirim prompt ke Gemini
 async def call_gemini_api(prompt, context):
@@ -148,7 +168,9 @@ async def generate(request: Request):
     # 2. Siapkan konteks untuk Gemini
     context = (
         "Berikan hanya response JSON tanpa pembuka apapun.\n"
-        "Format: {\"code\": \"<kode python manim lengkap dari import sampai akhir, tanpa penjelasan, tanpa markdown, tanpa kata lain>\"}\n"
+        "Format: {\"code\": \"<kode python manim lengkap dari import sampai akhir>\"}\n"
+        "Target pembelajar adalah anak SD, gunakan konsep yang sangat dasar.\n"
+        "Pertanyaan dijawab dari dasar sehingga yang belum mengerti matematika dasar bisa mengerti ataupun bisa diberikan cara berpikir.\n"
         "Kode Python harus menggunakan library manim dan wajib menggunakan manim_voiceover.\n"
         "Gunakan class utama yang mewarisi dari VoiceoverScene, bukan Scene.\n"
         "Kode wajib menggunakan AzureService dari manim_voiceover.\n"
@@ -177,7 +199,6 @@ async def generate(request: Request):
         ")\n"
         "with self.voiceover(\"Ini adalah lingkaran merah.\"):\n"
         "    self.play(Create(Circle(color=RED)))\n"
-        "Target pembelajar adalah anak SD, gunakan konsep yang sangat dasar.\n"
         "Hanya gunakan mobject dasar seperti Circle, Square, Rectangle, Line, Dot, Text, MathTex.\n"
         "Gunakan animasi dasar: Create, Write, FadeIn, FadeOut, Transform, Wait.\n"
         "Gunakan warna dasar seperti RED, BLUE, GREEN, YELLOW.\n"
@@ -201,7 +222,8 @@ async def generate(request: Request):
     full_prompt = context + prompt
     try:
         # Setelah dapat response dari Gemini
-        code_json = await call_gemini_api(full_prompt, "")
+        # code_json = await call_gemini_api(full_prompt, "")
+        code_json = await call_gpt_api(prompt, context)
         logging.info(f"Gemini raw response: {repr(code_json)}")
 
         # 1. Bersihkan blok markdown
@@ -234,7 +256,7 @@ async def generate(request: Request):
     try:
         subprocess.run(
             [
-                "manim", "-pqh", "generated.py", class_name,
+                "/root/manimations/.venv/bin/manim", "-pqh", "generated.py", class_name,
                 "--output_file", "result.mp4"
             ],
             check=True,
