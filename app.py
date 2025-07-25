@@ -171,6 +171,7 @@ async def generate(request: Request):
         "Format: {\"code\": \"<kode python manim lengkap dari import sampai akhir>\"}\n"
         "Target pembelajar adalah anak SD, gunakan konsep yang sangat dasar.\n"
         "Pertanyaan dijawab dari dasar sehingga yang belum mengerti matematika dasar bisa mengerti ataupun bisa diberikan cara berpikir.\n"
+        "Pastikan seluruh kode Python di dalam value 'code' pada JSON di-escape dengan benar sesuai standar JSON (kutip ganda di-escape dengan \\\" dan backslash di-escape dengan \\\\).\n"
         "Kode Python harus menggunakan library manim dan wajib menggunakan manim_voiceover.\n"
         "Gunakan class utama yang mewarisi dari VoiceoverScene, bukan Scene.\n"
         "Kode wajib menggunakan AzureService dari manim_voiceover.\n"
