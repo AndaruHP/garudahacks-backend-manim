@@ -127,12 +127,13 @@ async def generate(request: Request):
     data = await request.json()
     user_id = data["user_id"]
     prompt = data["prompt"]
+    bahasa = data["bahasa"]
 
     if not user_id or not prompt:
         logging.error(f"Request missing user_id or prompt: {data}")
         return JSONResponse({"error": "user_id dan prompt wajib ada"}, status_code=400)
 
-    logging.info(f"Received generate request: user_id={user_id}, prompt={prompt}")
+    logging.info(f"Received generate request: user_id={user_id}, prompt={prompt}, bahasa={bahasa}")
 
     # 1. Hitung request ke berapa
     req_count = get_user_request_count(user_id)
@@ -146,21 +147,55 @@ async def generate(request: Request):
 
     # 2. Siapkan konteks untuk Gemini
     context = (
-        "Berikan hanya response JSON tanpa pembuka apapun. "
-        "Buatkan kode Python dengan library manim menggunakan fungsi dan konstanta dasar saja. "
-        "Jangan gunakan Tex, gunakan MathTex saja. "
-        "Target pembelajarannya adalah anak SD, sehingga harus diajarkan dari basic jangan terlalu kompleks dan ada shortcut. "
-        "Hanya gunakan fungsi dasar manim seperti: Create, Write, FadeIn, FadeOut, Transform, ShowCreation, Wait. "
-        "Hanya gunakan mobject dasar seperti: Circle, Square, Rectangle, Line, Dot, Text, MathTex. "
-        "Jangan gunakan konstanta yang tidak standar, gunakan angka langsung atau warna dasar seperti RED, BLUE, GREEN, YELLOW. "
-        "Hapus dari layar untuk scene yang sudah tidak terpakai lagi agar tidak menumpuk dengan scene lain. "
-        "Untuk posisi gunakan angka koordinat sederhana atau UP, DOWN, LEFT, RIGHT. "
-        "Kode harus punya class Scene utama yang inherit dari Scene. "
-        "Berikan hanya response JSON tanpa pembuka apapun. "
-        "Format: {\"code\": \"<kode python manim lengkap dari import sampai akhir, tanpa penjelasan, tanpa markdown, tanpa kata lain>\"} "
-        "Jangan tambahkan apapun selain JSON tersebut.\n"
-        "Permintaanuser: "
+        "Berikan hanya response JSON tanpa pembuka apapun.\n"
+        "Format: {\"code\": \"<kode python manim lengkap dari import sampai akhir, tanpa penjelasan, tanpa markdown, tanpa kata lain>\"}\n"
+        "Kode Python harus menggunakan library manim dan wajib menggunakan manim_voiceover.\n"
+        "Gunakan class utama yang mewarisi dari VoiceoverScene, bukan Scene.\n"
+        "Kode wajib menggunakan AzureService dari manim_voiceover.\n"
+        "Import yang wajib digunakan di awal:\n"
+        "from manim import *\n"
+        "from manim_voiceover import VoiceoverScene\n"
+        "from manim_voiceover.services.azure import AzureService\n"
+        "Gunakan konfigurasi AzureService sebagai berikut:\n"
+        "self.set_speech_service(\n"
+        "    AzureService(\n"
+        "        voice=\"id-ID-GadisNeural\", \n"
+        "        style=\"general\", \n"
+        "        azure_key=os.getenv(\"AZURE_SUBSCRIPTION_KEY\"), \n"
+        "        region=os.getenv(\"AZURE_SERVICE_REGION\")\n"
+        "    )\n"
+        ")\n"
+        "Setiap scene harus memiliki penjelasan audio dengan with self.voiceover(...):\n"
+        "Contoh penggunaan AzureService dan audio:\n"
+        "self.set_speech_service(\n"
+        "    AzureService(\n"
+        "        voice=\"id-ID-GadisNeural\",\n"
+        "        style=\"general\",\n"
+        "        azure_key=os.getenv(\"AZURE_SUBSCRIPTION_KEY\"),\n"
+        "        region=os.getenv(\"AZURE_SERVICE_REGION\")\n"
+        "    )\n"
+        ")\n"
+        "with self.voiceover(\"Ini adalah lingkaran merah.\"):\n"
+        "    self.play(Create(Circle(color=RED)))\n"
+        "Target pembelajar adalah anak SD, gunakan konsep yang sangat dasar.\n"
+        "Hanya gunakan mobject dasar seperti Circle, Square, Rectangle, Line, Dot, Text, MathTex.\n"
+        "Gunakan animasi dasar: Create, Write, FadeIn, FadeOut, Transform, Wait.\n"
+        "Gunakan warna dasar seperti RED, BLUE, GREEN, YELLOW.\n"
+        "Gunakan posisi sederhana seperti UP, DOWN, LEFT, RIGHT atau koordinat seperti (2, 0, 0).\n"
+        "Hindari method yang kompleks seperti get_grid, gunakan VGroup dan arrange_in_grid jika perlu.\n"
+        "Jangan gunakan Tex, hanya MathTex untuk rumus.\n"
+        "Pastikan semua kode memiliki indentasi 4 spasi, tidak menggunakan tab.\n"
+        "Hapus objek dari layar setelah tidak dipakai.\n"
     )
+    if bahasa:
+        context += f"Gunakan bahasa: {bahasa}.\n"
+    context += (
+        "Jika bahasa adalah indonesia, maka gunakan voice id-ID-GadisNeural.\n"
+        "Jika bahasa adalah inggris, maka gunakan voice en-US-AvaMultilingualNeural.\n"
+        "Style audio adalah general.\n"
+        "Permintaan user: "
+    )
+
 
     # 3. Panggil Gemini API
     full_prompt = context + prompt
@@ -222,6 +257,15 @@ async def generate(request: Request):
     video_html = f'<video controls width="640" src="{video_url}"></video>'
 
     logging.info(f"Video generated: {video_url}")
+
+    try:
+        compile(code, py_filename_full, 'exec')
+    except IndentationError as e:
+        logging.error(f"Indentation error in generated code: {e}")
+        return JSONResponse({"error": f"Indentation error in generated code: {e}"}, status_code=500)
+    except SyntaxError as e:
+        logging.error(f"Syntax error in generated code: {e}")
+        return JSONResponse({"error": f"Syntax error in generated code: {e}"}, status_code=500)
 
     return {
         "message": "Video berhasil dibuat!",
