@@ -1,0 +1,160 @@
+[
+  {
+    "input_text": "Ini adalah cara menghitung 5 kali 10.",
+    "input_data": {
+      "input_text": "Ini adalah cara menghitung 5 kali 10.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Ini adalah cara menghitung 5 kali 10.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Ini adalah cara menghitung 5 kali 10.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 400,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "Ini",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4500000,
+        "duration_milliseconds": 462,
+        "text_offset": 4,
+        "word_length": 6,
+        "text": "adalah",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 350,
+        "text_offset": 11,
+        "word_length": 4,
+        "text": "cara",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12625000,
+        "duration_milliseconds": 575,
+        "text_offset": 16,
+        "word_length": 10,
+        "text": "menghitung",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18375000,
+        "duration_milliseconds": 375,
+        "text_offset": 27,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22125000,
+        "duration_milliseconds": 362,
+        "text_offset": 29,
+        "word_length": 4,
+        "text": "kali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25750000,
+        "duration_milliseconds": 725,
+        "text_offset": 34,
+        "word_length": 2,
+        "text": "10",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 87,
+        "text_offset": 36,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "ini-adalah-cara-menghitung-5-kali-10-e73cba99.mp3",
+    "final_audio": "ini-adalah-cara-menghitung-5-kali-10-e73cba99.mp3"
+  },
+  {
+    "input_text": "5 kali 10 sama dengan 50.",
+    "input_data": {
+      "input_text": "5 kali 10 sama dengan 50.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">5 kali 10 sama dengan 50.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">5 kali 10 sama dengan 50.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 375,
+        "text_offset": 0,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 362,
+        "text_offset": 2,
+        "word_length": 4,
+        "text": "kali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7875000,
+        "duration_milliseconds": 425,
+        "text_offset": 7,
+        "word_length": 2,
+        "text": "10",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12125000,
+        "duration_milliseconds": 450,
+        "text_offset": 10,
+        "word_length": 4,
+        "text": "sama",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16625000,
+        "duration_milliseconds": 425,
+        "text_offset": 15,
+        "word_length": 6,
+        "text": "dengan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20875000,
+        "duration_milliseconds": 962,
+        "text_offset": 22,
+        "word_length": 2,
+        "text": "50",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30500000,
+        "duration_milliseconds": 87,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "5-kali-10-sama-dengan-50-eff1aad2.mp3",
+    "final_audio": "5-kali-10-sama-dengan-50-eff1aad2.mp3"
+  }
+]

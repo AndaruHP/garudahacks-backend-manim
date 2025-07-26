@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:04,460
+Let's divide 999 by 999.
+
+2
+00:00:04,550 --> 00:00:06,994
+Any number divided by itself is 1.
+

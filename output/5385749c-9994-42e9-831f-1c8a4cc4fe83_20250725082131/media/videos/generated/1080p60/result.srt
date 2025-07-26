@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:05,324
+Mari kita hitung 999 dibagi 9.
+
+2
+00:00:05,416 --> 00:00:14,124
+Jadi, jika kita membagi 999 dengan 9, kita akan mendapatkan 111.
+

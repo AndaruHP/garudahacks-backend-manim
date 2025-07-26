@@ -1,0 +1,8 @@
+1
+00:00:01,000 --> 00:00:03,132
+One hundred divided by fifty.
+
+2
+00:00:03,216 --> 00:00:04,748
+Is equal to two.
+

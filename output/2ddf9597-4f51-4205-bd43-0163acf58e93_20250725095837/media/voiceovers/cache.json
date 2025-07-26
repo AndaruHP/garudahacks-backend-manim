@@ -1,0 +1,85 @@
+[
+  {
+    "input_text": "Lima dikali lima adalah dua puluh lima.",
+    "input_data": {
+      "input_text": "Lima dikali lima adalah dua puluh lima.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Lima dikali lima adalah dua puluh lima.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Lima dikali lima adalah dua puluh lima.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5000000,
+        "duration_milliseconds": 437,
+        "text_offset": 5,
+        "word_length": 6,
+        "text": "dikali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 487,
+        "text_offset": 12,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 575,
+        "text_offset": 17,
+        "word_length": 6,
+        "text": "adalah",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20000000,
+        "duration_milliseconds": 275,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "dua",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22750000,
+        "duration_milliseconds": 287,
+        "text_offset": 28,
+        "word_length": 5,
+        "text": "puluh",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 537,
+        "text_offset": 34,
+        "word_length": 4,
+        "text": "lima",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31000000,
+        "duration_milliseconds": 87,
+        "text_offset": 38,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "lima-dikali-lima-adalah-dua-puluh-lima-bfe73132.mp3",
+    "final_audio": "lima-dikali-lima-adalah-dua-puluh-lima-bfe73132.mp3"
+  }
+]

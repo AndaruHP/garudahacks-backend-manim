@@ -1,0 +1,144 @@
+[
+  {
+    "input_text": "Mari kita hitung 5 kali 8",
+    "input_data": {
+      "input_text": "Mari kita hitung 5 kali 8",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita hitung 5 kali 8</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita hitung 5 kali 8</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 375,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Mari",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 325,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7500000,
+        "duration_milliseconds": 525,
+        "text_offset": 10,
+        "word_length": 6,
+        "text": "hitung",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12750000,
+        "duration_milliseconds": 375,
+        "text_offset": 17,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16500000,
+        "duration_milliseconds": 375,
+        "text_offset": 19,
+        "word_length": 4,
+        "text": "kali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 725,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "8",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "mari-kita-hitung-5-kali-8-50703e57.mp3",
+    "final_audio": "mari-kita-hitung-5-kali-8-50703e57.mp3"
+  },
+  {
+    "input_text": "Hasil dari 5 kali 8 adalah 40",
+    "input_data": {
+      "input_text": "Hasil dari 5 kali 8 adalah 40",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Hasil dari 5 kali 8 adalah 40</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Hasil dari 5 kali 8 adalah 40</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 625,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Hasil",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6750000,
+        "duration_milliseconds": 275,
+        "text_offset": 6,
+        "word_length": 4,
+        "text": "dari",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 362,
+        "text_offset": 11,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13125000,
+        "duration_milliseconds": 287,
+        "text_offset": 13,
+        "word_length": 4,
+        "text": "kali",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16000000,
+        "duration_milliseconds": 575,
+        "text_offset": 18,
+        "word_length": 1,
+        "text": "8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21750000,
+        "duration_milliseconds": 525,
+        "text_offset": 20,
+        "word_length": 6,
+        "text": "adalah",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27000000,
+        "duration_milliseconds": 0,
+        "text_offset": 27,
+        "word_length": 2,
+        "text": "40",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "hasil-dari-5-kali-8-adalah-40-b2387216.mp3",
+    "final_audio": "hasil-dari-5-kali-8-adalah-40-b2387216.mp3"
+  }
+]

@@ -1,0 +1,144 @@
+[
+  {
+    "input_text": "Mari kita hitung 5 dibagi 8.",
+    "input_data": {
+      "input_text": "Mari kita hitung 5 dibagi 8.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita hitung 5 dibagi 8.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita hitung 5 dibagi 8.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 387,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Mari",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4375000,
+        "duration_milliseconds": 300,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7375000,
+        "duration_milliseconds": 462,
+        "text_offset": 10,
+        "word_length": 6,
+        "text": "hitung",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12000000,
+        "duration_milliseconds": 462,
+        "text_offset": 17,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16625000,
+        "duration_milliseconds": 637,
+        "text_offset": 19,
+        "word_length": 6,
+        "text": "dibagi",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23000000,
+        "duration_milliseconds": 737,
+        "text_offset": 26,
+        "word_length": 1,
+        "text": "8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30375000,
+        "duration_milliseconds": 87,
+        "text_offset": 27,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "mari-kita-hitung-5-dibagi-8-d6b840e8.mp3",
+    "final_audio": "mari-kita-hitung-5-dibagi-8-d6b840e8.mp3"
+  },
+  {
+    "input_text": "Hasilnya adalah 0.625.",
+    "input_data": {
+      "input_text": "Hasilnya adalah 0.625.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Hasilnya adalah 0.625.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Hasilnya adalah 0.625.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 775,
+        "text_offset": 0,
+        "word_length": 8,
+        "text": "Hasilnya",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8250000,
+        "duration_milliseconds": 575,
+        "text_offset": 9,
+        "word_length": 6,
+        "text": "adalah",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 412,
+        "text_offset": 16,
+        "word_length": 1,
+        "text": "0",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18125000,
+        "duration_milliseconds": 0,
+        "text_offset": 17,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 18125000,
+        "duration_milliseconds": 325,
+        "text_offset": 18,
+        "word_length": 3,
+        "text": "625",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31375000,
+        "duration_milliseconds": 87,
+        "text_offset": 21,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "hasilnya-adalah-0-625-006c0765.mp3",
+    "final_audio": "hasilnya-adalah-0-625-006c0765.mp3"
+  }
+]

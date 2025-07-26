@@ -1,0 +1,128 @@
+[
+  {
+    "input_text": "One hundred divided by fifty.",
+    "input_data": {
+      "input_text": "One hundred divided by fifty.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">One hundred divided by fifty.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">One hundred divided by fifty.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 237,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "One",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3000000,
+        "duration_milliseconds": 350,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "hundred",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6500000,
+        "duration_milliseconds": 487,
+        "text_offset": 12,
+        "word_length": 7,
+        "text": "divided",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11500000,
+        "duration_milliseconds": 187,
+        "text_offset": 20,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 525,
+        "text_offset": 23,
+        "word_length": 5,
+        "text": "fifty",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18875000,
+        "duration_milliseconds": 100,
+        "text_offset": 28,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "one-hundred-divided-by-fifty-fb722574.mp3",
+    "final_audio": "one-hundred-divided-by-fifty-fb722574.mp3"
+  },
+  {
+    "input_text": "Is equal to two.",
+    "input_data": {
+      "input_text": "Is equal to two.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Is equal to two.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Is equal to two.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 312,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "Is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4625000,
+        "duration_milliseconds": 275,
+        "text_offset": 3,
+        "word_length": 5,
+        "text": "equal",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7500000,
+        "duration_milliseconds": 100,
+        "text_offset": 9,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8625000,
+        "duration_milliseconds": 437,
+        "text_offset": 12,
+        "word_length": 3,
+        "text": "two",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13125000,
+        "duration_milliseconds": 87,
+        "text_offset": 15,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "is-equal-to-two-2e790d67.mp3",
+    "final_audio": "is-equal-to-two-2e790d67.mp3"
+  }
+]

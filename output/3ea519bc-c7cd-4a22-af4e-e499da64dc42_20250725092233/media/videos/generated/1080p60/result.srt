@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:04,028
+Ini adalah cara menghitung 5 kali 10.
+
+2
+00:00:04,116 --> 00:00:07,880
+5 kali 10 sama dengan 50.
+

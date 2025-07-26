@@ -1,0 +1,176 @@
+[
+  {
+    "input_text": "Kita akan menghitung 5 dikalikan dengan 6.",
+    "input_data": {
+      "input_text": "Kita akan menghitung 5 dikalikan dengan 6.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Kita akan menghitung 5 dikalikan dengan 6.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Kita akan menghitung 5 dikalikan dengan 6.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 400,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4500000,
+        "duration_milliseconds": 325,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "akan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7750000,
+        "duration_milliseconds": 487,
+        "text_offset": 10,
+        "word_length": 10,
+        "text": "menghitung",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12625000,
+        "duration_milliseconds": 400,
+        "text_offset": 21,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16625000,
+        "duration_milliseconds": 750,
+        "text_offset": 23,
+        "word_length": 9,
+        "text": "dikalikan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 412,
+        "text_offset": 33,
+        "word_length": 6,
+        "text": "dengan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28250000,
+        "duration_milliseconds": 600,
+        "text_offset": 40,
+        "word_length": 1,
+        "text": "6",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34250000,
+        "duration_milliseconds": 87,
+        "text_offset": 41,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "kita-akan-menghitung-5-dikalikan-dengan-6-9f321b88.mp3",
+    "final_audio": "kita-akan-menghitung-5-dikalikan-dengan-6-9f321b88.mp3"
+  },
+  {
+    "input_text": "Hasil dari 5 dikalikan dengan 6 adalah 30.",
+    "input_data": {
+      "input_text": "Hasil dari 5 dikalikan dengan 6 adalah 30.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Hasil dari 5 dikalikan dengan 6 adalah 30.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Hasil dari 5 dikalikan dengan 6 adalah 30.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 587,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Hasil",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 250,
+        "text_offset": 6,
+        "word_length": 4,
+        "text": "dari",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8875000,
+        "duration_milliseconds": 387,
+        "text_offset": 11,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12750000,
+        "duration_milliseconds": 650,
+        "text_offset": 13,
+        "word_length": 9,
+        "text": "dikalikan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19250000,
+        "duration_milliseconds": 325,
+        "text_offset": 23,
+        "word_length": 6,
+        "text": "dengan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 487,
+        "text_offset": 30,
+        "word_length": 1,
+        "text": "6",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27375000,
+        "duration_milliseconds": 575,
+        "text_offset": 32,
+        "word_length": 6,
+        "text": "adalah",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33125000,
+        "duration_milliseconds": 987,
+        "text_offset": 39,
+        "word_length": 2,
+        "text": "30",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43000000,
+        "duration_milliseconds": 87,
+        "text_offset": 41,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "hasil-dari-5-dikalikan-dengan-6-adalah-30-e2662755.mp3",
+    "final_audio": "hasil-dari-5-dikalikan-dengan-6-adalah-30-e2662755.mp3"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "input_text": "Mari kita hitung 999 dibagi 9.",
+    "input_data": {
+      "input_text": "Mari kita hitung 999 dibagi 9.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita hitung 999 dibagi 9.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Mari kita hitung 999 dibagi 9.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 387,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Mari",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4375000,
+        "duration_milliseconds": 287,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7250000,
+        "duration_milliseconds": 462,
+        "text_offset": 10,
+        "word_length": 6,
+        "text": "hitung",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11875000,
+        "duration_milliseconds": 12,
+        "text_offset": 17,
+        "word_length": 3,
+        "text": "999",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32000000,
+        "duration_milliseconds": 637,
+        "text_offset": 21,
+        "word_length": 6,
+        "text": "dibagi",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38375000,
+        "duration_milliseconds": 762,
+        "text_offset": 28,
+        "word_length": 1,
+        "text": "9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46000000,
+        "duration_milliseconds": 87,
+        "text_offset": 29,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "mari-kita-hitung-999-dibagi-9-34b07ba1.mp3",
+    "final_audio": "mari-kita-hitung-999-dibagi-9-34b07ba1.mp3"
+  },
+  {
+    "input_text": "Jadi, jika kita membagi 999 dengan 9, kita akan mendapatkan 111.",
+    "input_data": {
+      "input_text": "Jadi, jika kita membagi 999 dengan 9, kita akan mendapatkan 111.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Jadi, jika kita membagi 999 dengan 9, kita akan mendapatkan 111.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "id-ID-GadisNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"id-ID-GadisNeural\">\n        <mstts:express-as style=\"general\">Jadi, jika kita membagi 999 dengan 9, kita akan mendapatkan 111.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 675,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Jadi",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 300,
+        "text_offset": 4,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 11125000,
+        "duration_milliseconds": 337,
+        "text_offset": 6,
+        "word_length": 4,
+        "text": "jika",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 325,
+        "text_offset": 11,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17750000,
+        "duration_milliseconds": 475,
+        "text_offset": 16,
+        "word_length": 7,
+        "text": "membagi",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 825,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "999",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40750000,
+        "duration_milliseconds": 312,
+        "text_offset": 28,
+        "word_length": 6,
+        "text": "dengan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43875000,
+        "duration_milliseconds": 650,
+        "text_offset": 35,
+        "word_length": 1,
+        "text": "9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51250000,
+        "duration_milliseconds": 275,
+        "text_offset": 36,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 54000000,
+        "duration_milliseconds": 287,
+        "text_offset": 38,
+        "word_length": 4,
+        "text": "kita",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56875000,
+        "duration_milliseconds": 362,
+        "text_offset": 43,
+        "word_length": 4,
+        "text": "akan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60500000,
+        "duration_milliseconds": 662,
+        "text_offset": 48,
+        "word_length": 11,
+        "text": "mendapatkan",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67125000,
+        "duration_milliseconds": 262,
+        "text_offset": 60,
+        "word_length": 3,
+        "text": "111",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79750000,
+        "duration_milliseconds": 87,
+        "text_offset": 63,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "jadi-jika-kita-membagi-999-dengan-9-kita-akan-1208149e.mp3",
+    "final_audio": "jadi-jika-kita-membagi-999-dengan-9-kita-akan-1208149e.mp3"
+  }
+]

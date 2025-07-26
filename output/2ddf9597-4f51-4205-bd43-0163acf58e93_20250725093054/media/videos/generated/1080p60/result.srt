@@ -1,0 +1,8 @@
+1
+00:00:00,000 --> 00:00:03,476
+Mari kita hitung 5 kali 8
+
+2
+00:00:03,566 --> 00:00:07,978
+Hasil dari 5 kali 8 adalah 40
+

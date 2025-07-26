@@ -1,0 +1,152 @@
+[
+  {
+    "input_text": "Let's calculate 1000 divided by 50.",
+    "input_data": {
+      "input_text": "Let's calculate 1000 divided by 50.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Let's calculate 1000 divided by 50.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Let's calculate 1000 divided by 50.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 275,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3375000,
+        "duration_milliseconds": 587,
+        "text_offset": 6,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 787,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "1000",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 400,
+        "text_offset": 21,
+        "word_length": 7,
+        "text": "divided",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21500000,
+        "duration_milliseconds": 150,
+        "text_offset": 29,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23125000,
+        "duration_milliseconds": 525,
+        "text_offset": 32,
+        "word_length": 2,
+        "text": "50",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28500000,
+        "duration_milliseconds": 87,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-calculate-1000-divided-by-50-631bee57.mp3",
+    "final_audio": "let-s-calculate-1000-divided-by-50-631bee57.mp3"
+  },
+  {
+    "input_text": "So, 1000 divided by 50 equals 20.",
+    "input_data": {
+      "input_text": "So, 1000 divided by 50 equals 20.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">So, 1000 divided by 50 equals 20.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">So, 1000 divided by 50 equals 20.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 875000,
+        "duration_milliseconds": 500,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "So",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6875000,
+        "duration_milliseconds": 112,
+        "text_offset": 2,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 637,
+        "text_offset": 4,
+        "word_length": 4,
+        "text": "1000",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14375000,
+        "duration_milliseconds": 450,
+        "text_offset": 9,
+        "word_length": 7,
+        "text": "divided",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19000000,
+        "duration_milliseconds": 200,
+        "text_offset": 17,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21125000,
+        "duration_milliseconds": 362,
+        "text_offset": 20,
+        "word_length": 12,
+        "text": "50 equals 20",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34750000,
+        "duration_milliseconds": 87,
+        "text_offset": 32,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "so-1000-divided-by-50-equals-20-cf1b788e.mp3",
+    "final_audio": "so-1000-divided-by-50-equals-20-cf1b788e.mp3"
+  }
+]

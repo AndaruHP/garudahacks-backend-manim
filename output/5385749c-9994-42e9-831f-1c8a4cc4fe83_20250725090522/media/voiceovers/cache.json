@@ -1,0 +1,136 @@
+[
+  {
+    "input_text": "Let's calculate 255 divided by 5.",
+    "input_data": {
+      "input_text": "Let's calculate 255 divided by 5.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Let's calculate 255 divided by 5.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">Let's calculate 255 divided by 5.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 275,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3375000,
+        "duration_milliseconds": 575,
+        "text_offset": 6,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9250000,
+        "duration_milliseconds": 375,
+        "text_offset": 16,
+        "word_length": 3,
+        "text": "255",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23125000,
+        "duration_milliseconds": 475,
+        "text_offset": 20,
+        "word_length": 7,
+        "text": "divided",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28000000,
+        "duration_milliseconds": 200,
+        "text_offset": 28,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30125000,
+        "duration_milliseconds": 500,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35125000,
+        "duration_milliseconds": 87,
+        "text_offset": 32,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-calculate-255-divided-by-5-f1601998.mp3",
+    "final_audio": "let-s-calculate-255-divided-by-5-f1601998.mp3"
+  },
+  {
+    "input_text": "255 divided by 5 equals 51.",
+    "input_data": {
+      "input_text": "255 divided by 5 equals 51.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">255 divided by 5 equals 51.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AvaMultilingualNeural",
+        "style": "general",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AvaMultilingualNeural\">\n        <mstts:express-as style=\"general\">255 divided by 5 equals 51.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 875000,
+        "duration_milliseconds": 187,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "255",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12875000,
+        "duration_milliseconds": 437,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "divided",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 187,
+        "text_offset": 12,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19375000,
+        "duration_milliseconds": 675,
+        "text_offset": 15,
+        "word_length": 11,
+        "text": "5 equals 51",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36125000,
+        "duration_milliseconds": 87,
+        "text_offset": 26,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "255-divided-by-5-equals-51-434c0d4f.mp3",
+    "final_audio": "255-divided-by-5-equals-51-434c0d4f.mp3"
+  }
+]
